@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:layout_height="150dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+        android:layout_weight="1"
+        android:id="@+id/my_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/business_woman"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:background="#2E2D2D"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tools"
+            android:textColor="#F0F3F6"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tools"
+            android:textColor="#F0F3F6"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_title_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tools"
+            android:textColor="#F0F3F6"
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started >"
+            android:textColor="#CF8A25"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

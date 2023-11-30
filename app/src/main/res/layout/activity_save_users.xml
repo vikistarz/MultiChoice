@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A98EAE"
+    tools:context=".employeeDatabasePage.SaveUsersActivity">
+
+    <View
+        android:id="@+id/arrow_back"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/baseline_arrow_back_white" />
+
+    <TextView
+        android:id="@+id/tv_employee_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity = "center"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/et_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        android:hint="Enter Full Name" />
+
+
+    <EditText
+        android:id="@+id/et_job_Description"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:hint="Enter Job Description" />
+
+    <!--edit text for course description-->
+    <EditText
+        android:id="@+id/et_year_of_entry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@color/white"
+        android:hint="Enter Year Of Entry" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save_employee"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:backgroundTint="@drawable/button_background_now"
+        android:textSize="20sp"
+        android:background="@drawable/buttons"
+        android:textAllCaps="false"
+        android:text="Save Employee Data"/>
+
+
+</LinearLayout>

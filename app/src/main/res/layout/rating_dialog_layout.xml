@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/image_dialog"
+    android:orientation="vertical"
+    android:layout_height="330dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enjoying the App?"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#373636"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you mind rating us"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#757474"
+        android:textSize="12sp" />
+
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:numStars="5"
+        android:stepSize="1"
+        android:theme="@style/RatingBar"/>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_rate"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/rate_buttons"
+            android:textAllCaps="false"
+            android:text="Rate"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_later"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="25dp"
+            android:textColor="#504E4E"
+            android:textSize="20sp"
+            android:background="@drawable/later_buttons"
+            android:textAllCaps="false"
+            android:text="Later"/>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

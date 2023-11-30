@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.MulitChoice" parent="Theme.Material3.DayNight.NoActionBar">
+
+    <item name="colorPrimary">#FAF6F6</item>
+    <item name="colorPrimaryVariant">#FAF6F6</item>
+    <item name="colorOnPrimary">#FAF6F6</item>
+    <!-- Secondary brand color. -->
+
+    <item name="colorOnSecondary">#FAF6F6</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor">#00000000</item>
+    <!-- Customize your theme here. -->
+    <!-- Customize your light theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+</resources>

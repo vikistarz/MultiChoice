@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MulitChoice</string>
+    <string name="myPref">SharedPreference</string>
+    <string name="battery_level">Battery level</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="betting_movies_events"><![CDATA[Betting, Movies & Events]]></string>
+    <string name="travels_holidays"><![CDATA[Travels & Holidays]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

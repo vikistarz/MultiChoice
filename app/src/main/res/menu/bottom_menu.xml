@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_bottom_scores"
+        android:icon="@drawable/baseline_sports_baseball_24"
+        android:title="Scores"/>
+
+    <item
+        android:id="@+id/nav_bottom_favourite"
+         android:icon="@drawable/baseline_star_border_24"
+        android:title="Favourite"/>
+
+    <item
+        android:id="@+id/nav_bottom_news"
+         android:icon="@drawable/baseline_newspaper_24"
+        android:title="News"/>
+
+    <item
+        android:id="@+id/nav_back_to_dashboard"
+        android:icon="@drawable/live_score"
+        android:title="" />
+
+
+
+</menu>
+
